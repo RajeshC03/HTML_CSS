@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_FORM</title>
+</head>
+<body>
+
+    <!-- Creating sample HTML FORMS.....  -->
+
+
+    <h2><u>RTO Driving License Test Fillup Form</u></h2>
+    <hr>
+    <hr>
+    <form  action="./form.txt"  method="get">
+        <label>Full Name:</label>
+        <input type="text" required placeholder="First name"><input type="text" required placeholder="Last name"><hr>
+
+        <label>Email Id:</label>
+        <input type="email" required placeholder="Email ID"><hr>
+
+        <label>Password:</label>
+        <input type="password" required placeholder="password"><hr>
+
+        <label>Phone/Mobile Number:</label>
+        <input type="tel" required placeholder="phone number" minlength="10" maxlength="10"><hr>
+
+        <label>Adhar Number:</label>
+        <input type="tel" required placeholder="Adhar number" minlength="12" maxlength="12"><hr>
+
+        <label>DOB:</label>
+        <input type="date" required><hr>
+
+        <Label>Age:</Label>
+        <input type="number" required placeholder="Enter your age" min="18"><hr>
+
+        <label>Enter Date you are visiting office:</label>
+        <input type="date" required placeholder="Enter date" min="2025-08-07" max="2025-09-07"><hr>
+
+        <label> Enter time you are visiting Office:</label>
+        <input type="time" required><hr>
+
+        <label>Date and Time you are giving test:</label>
+        <input type="datetime-local" required><hr>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender"><label>Male</label>
+        <input type="radio" name="gender"><label>Female</label>
+        <input type="radio" name="gender"><label>Others</label><hr>
+
+        <lable>Adhar Card:</lable>
+        <input type="file" accept=".jpg, .jpeg, .png, .pdf" required><hr>
+
+        <lable>Select Vehicles to give Test</lable>
+        <input type="checkbox" name="vehicle" value="Car" multiple id="car"><label for="car">Car</label>
+        <input type="checkbox" name="vehicle" value="Bike" multiple><label>Bike</label>
+        <input type="checkbox" name="vehicle" value="Truck"multiple><label>Truck</label>
+        <input type="checkbox" name="vehicle" value="Bus" multiple><label>Bus</label>
+        <input type="checkbox" name="vehicle" value="Scooter" multiple><label>Scooter</label><hr>
+
+        <input type="range"><hr>
+
+        <label>Comments:</label>
+        <textarea rows="4" cols="50" placeholder="Enter your comments here..."></textarea><hr>
+        
+        <!-- Select tag and optgroup tag -->
+        <label>Select RTO Near by you:</label><br>
+        <select multiple>
+            <optgroup label="Udupi and Mangaluru">
+                <option>Manipal RTO, Rajatadri, Udupi</option>
+                <option>Mangaluru RTO, Mangaluru</option>
+                
+            </optgroup>
+            <optgroup label="Other District">
+                <option>Karwar RTO, Karwar</option>
+                <option>Shivamogga RTO, Shivamogga</option>
+            </optgroup>
+        </select><hr>
+
+        <!-- input type text or search to list the data and used for searching large amount of data in simpler way using search button -->
+        <label>Choose RTO Office: </label>
+        <input type="search" placeholder="Enter RTO office" list="rto">
+        <datalist id="rto">
+        <option>KA01 - Bengaluru Central (Koramangala)</option>
+        <option>KA02 - Bengaluru West (Rajajinagar)</option>
+        <option>KA03 - Bengaluru East (Indiranagar)</option>
+        <option>KA04 - Bengaluru North (Yeshwanthpur)</option>
+        <option>KA05 - Bengaluru South (Jayanagar)</option>
+        <option>KA06 - Tumakuru</option>
+        <option>KA07 - Kolar</option>
+        <option>KA08 - KGF (Kolar Gold Fields)</option>
+        <option>KA09 - Mysuru West</option>
+        <option>KA10 - Mysuru East</option>
+        <option>KA11 - Mandya</option>
+        <option>KA12 - Chamarajanagar</option>
+        <option>KA13 - Hassan</option>
+        <option>KA14 - Shivamogga (Shimoga)</option>
+        <option>KA15 - Sagar</option>
+        <option>KA16 - Chitradurga</option>
+        <option>KA17 - Davanagere</option>
+        <option>KA18 - Chikkamagaluru</option>
+        <option>KA19 - Mangaluru (Dakshina Kannada)</option>
+        <option>KA20 - Udupi</option>
+        <option>KA21 - Puttur</option>
+        <option>KA22 - Belagavi (Belgaum)</option>
+        <option>KA23 - Chikkodi</option>
+        <option>KA24 - Bailhongal</option>
+        <option>KA25 - Dharwad</option>
+        <option>KA26 - Gadag</option>
+        <option>KA27 - Haveri</option>
+        <option>KA28 - Bagalkot</option>
+        <option>KA29 - Karwar (Uttara Kannada)</option>
+        <option>KA30 - Sirsi</option>
+        <option>KA31 - Vijayapura (Bijapur)</option>
+        <option>KA32 - Gokak</option>
+        <option>KA33 - Ballari (Bellary)</option>
+        <option>KA34 - Hospet</option>
+        <option>KA35 - Raichur</option>
+        <option>KA36 - Koppal</option>
+        <option>KA37 - Yadgir</option>
+        <option>KA38 - Bidar</option>
+        <option>KA39 - Bhalki</option>
+        <option>KA40 - Chikkaballapura</option>
+        <option>KA41 - Ramanagara</option>
+        <option>KA42 - Bantwal</option>
+        <option>KA43 - Dandeli</option>
+        <option>KA44 - Tiptur</option>
+        <option>KA45 - Hunsur</option>
+        <option>KA46 - Sakleshpur</option>
+        <option>KA47 - Jamakhandi</option>
+        <option>KA48 - Gubbi</option>
+        <option>KA49 - Madhugiri</option>
+        <option>KA50 - Kundapura</option>
+</datalist>
+<hr>
+<hr>
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    
+    
+    </form>
+
+
+</body>
+</html>
