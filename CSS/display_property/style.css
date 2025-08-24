@@ -1,0 +1,49 @@
+p{
+
+    background-color: lightblue;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+
+a{
+    background-color: lightgreen;
+    display: block;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+/* div{
+    display:none;
+    background-color: lightcoral;
+} */
+
+
+div{
+    visibility: hidden;
+    background-color: lightcoral;
+}
+
+.scroll{
+
+overflow:auto;
+width: 300px;
+height: 300px;
+display: none;
+
+}
+
+
+/* Combinator selector */
+button:hover+p{
+    display: inline-block;
+    background-color: lightyellow;
+}
+
+
+
+
+
+
+

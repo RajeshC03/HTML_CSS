@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header{
+
+    margin: 15px auto;
+    background-color: rgba(231, 145, 217, 0.5);
+    width:150px;
+    text-align: center;
+    border-radius: 5px;
+    /* text-shadow: 0px 0px 16px black; */
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.363);
+}
+
+.product-card{
+    width:300px;
+    height:572px;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    padding:12px;
+    margin:61px;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    box-shadow: 0px 0px 25px 8px rgba(0, 0, 0, 0.404);
+    transition: all 1s ease;
+    display:inline-block;
+
+}
+
+.product-card:hover{
+    transform:translate(0px,-30px);
+}
+
+
+/* For Image 1 */
+.img img{    
+    border-radius: 7px;
+    transition:all 1s ease;
+}
+
+.img:hover img{
+    transform:scale(1.1);
+    content: url(./man_hoodie.jpg);
+}
+
+.btn button{
+    margin:3px;
+    height: 40px;
+    width: 268px;
+    background-color: rgb(2, 2, 85);
+    color: white;
+    border: rgb(2, 2, 85);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* For image 2 */
+.img2 img{
+     border-radius: 7px;
+    transition:all 1s ease;
+}
+
+.img2:hover img{
+    transform:scale(1.1);
+    content: url(./t_shirt2.webp);
+}
+
+/* For image 3 */
+.img3 img{
+     border-radius: 7px;
+    transition:all 1s ease;
+}
+
+.img3:hover img{
+    transform:scale(1.1);
+    content: url(./jeans2.jpg);
+}
+
+
+
+
+

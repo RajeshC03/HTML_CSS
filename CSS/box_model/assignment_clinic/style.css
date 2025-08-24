@@ -1,0 +1,122 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    
+}
+
+.header{    
+    background-image: linear-gradient(rgba(41, 39, 39, 0.582),rgba(0,0,0,0.9)),url(./bg_hospital.jpeg);
+    background-size: cover;
+    margin:20px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    padding:30px;
+}
+
+.list{
+    margin-left:30px;
+}
+
+.block1{
+    background-color:white;
+    width:470px;
+    height:275px;
+    border-radius: 10px;
+    margin: 47px 50px;
+    padding: 10px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.block1:hover {
+    box-shadow: 0 0 20px 18px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.image{
+    margin-top: 10px;
+    border-radius: 7px;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+
+/* .img-div{
+    margin-left: 20px;
+    margin-top: 10px;
+
+} */
+
+
+.para{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    height:auto;
+    display: inline-block;
+    line-height: 30px;
+    margin-top:5px;
+    margin-bottom:-20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:5px;
+    
+}
+
+#h1{
+    margin:8px 0px;
+    font-size:22px;
+}
+
+.sub-para{
+    background-color: rgba(182, 238, 252,0.5); 
+    display: inline; 
+    padding: 8px;
+    /* margin-bottom:10px; */
+    border-radius: 20px; 
+    color:rgb(51, 51, 228);
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.block2{
+    margin:4px;
+    font-size: 15px;
+}
+
+.para2{
+    display: inline-block;
+    margin:20px 30px;
+    font-weight: bold;
+}
+
+.btn1{
+    padding:10px 60px;
+    margin:5px 4px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);  
+    font-weight: bold;
+    border:1px solid rgba(0, 0, 0,0.6);
+    
+}
+
+.btn2{
+    padding:10px 60px;
+    margin:20px 4px;
+    border-radius: 10px;
+    background-color: rgb(4, 4, 151);
+    font-weight: bold;
+    border: 1px solid rgb(4, 4, 151);
+    color:white;
+}
+
+

@@ -1,0 +1,89 @@
+h1{
+    background-color: red;
+    width: 200px;
+    height:200px;
+    text-align: center;
+    padding:30px;
+    margin-left:40px;
+}
+
+h1:hover{
+    /* width:230px;
+    height:230px; */
+    transform:scale(1.1);
+}
+
+a{
+    text-decoration: none;
+    color:green;
+}
+/* If you once visit the color will be black only if you refresh the page  */
+a:visited{
+    color:black;
+}
+/* When we click the button thw color of the button will change so it will give clicked feel to the user */
+/* Used only for Buttons */
+a:active{
+
+    color:red;
+}
+
+/* While entering we click on the box and box outline and text color will change  */
+/* Used only for Text boxes */
+input:focus{
+    color:blue;
+    font-weight: bold;
+    outline:2px solid red;
+}
+
+/* first child  */
+
+ol li:first-child{
+    font-size:30px ;
+    color:red
+}
+
+/* last child */
+ol li:last-child{
+    font-size: 40px;
+    color:orange;
+    margin-left:20px;
+}
+
+
+/* To select n number of child from first to last  */
+
+ol li:nth-child(3){
+    font-size: 25px;
+    color:blueviolet;
+}
+
+/* To select n childrens form last to first */
+ol li:nth-last-child(odd){
+    font-size: 50px;
+    color:brown;
+}
+
+/* If we dont want to select perticular tag */
+
+:not(p)
+{
+    color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

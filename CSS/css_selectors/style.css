@@ -1,0 +1,36 @@
+/* Universal Selector */
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+/* Class Selector */
+.demo{
+    color:red
+}
+
+/* Id selector */
+#test{
+    color:green;
+    background-color: yellow;
+    text-shadow: 2px 2px 4px #000;
+}
+ 
+/* Attribute selector */
+input[type="text"]{
+    background-color: rgb(110, 106, 106);
+}
+
+/* Attrribute - Value Selector */
+input[minlength="8"]{
+    background-color: orange;
+}
+
+/* Pseudo element selector */
+input::placeholder{
+    color:black;
+    opacity: 0.6; /*  For brightness */
+}
+
+
+
+
+

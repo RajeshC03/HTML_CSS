@@ -1,0 +1,16 @@
+body{
+    color:white;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.397), rgba(17, 16, 16, 0.808)), url("./vidhan_soudha.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    text-indent: 50px;
+
+}
+
+
+
